@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    include: native,default
+  cloud:
+    config:
+      discovery:
+        enabled: false
+      server:
+        native:
+          searchLocations: C:/Debesh/config
+        encrypt:
+          enabled: true
+server:
+  port: 8888
