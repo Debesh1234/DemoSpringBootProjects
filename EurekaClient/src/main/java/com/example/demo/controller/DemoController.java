@@ -8,6 +8,7 @@ public class DemoController {
 
 	@RequestMapping("/getName")
 	public String getName(){
+		System.out.println("Inside Client project");
 		return "DemoProject";
 	}
 	
